@@ -15,9 +15,13 @@ class PetController extends Controller
      *
      * @return JsonResponse
      */
-    public function index(): JsonResponse
+    public function index(Request $request): JsonResponse
     {
-        return response()->json(Pet::all());
+        $query = Pet::query();
+        if ($request->has('pesquisa')) {
+            $query->where('nome', 'like', "%{$request->get('pesquisa')}%");
+        }
+        return response()->json($query->paginate(20));
     }
 
     /**
