@@ -21,3 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('pets', PetController::class)->only([
     'index', 'show', 'store', 'destroy'
 ]);
+
+Route::resource('atendimentos', AtendimentoController::class)->only([
+    'index', 'show', 'store', 'destroy'
+]);
