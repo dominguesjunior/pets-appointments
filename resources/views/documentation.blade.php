@@ -95,12 +95,12 @@
       ]
     </span>}
   ]</span>,
-  "<span class="hljs-attribute">first_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/pets?page=1"</span></span>,
+  "<span class="hljs-attribute">first_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/pets?page=1"</span></span>,
   "<span class="hljs-attribute">from</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
   "<span class="hljs-attribute">last_page</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
-  "<span class="hljs-attribute">last_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/pets?page=1"</span></span>,
+  "<span class="hljs-attribute">last_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/pets?page=1"</span></span>,
   "<span class="hljs-attribute">next_page_url</span>": <span class="hljs-value"><span class="hljs-literal">null</span></span>,
-  "<span class="hljs-attribute">path</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/pets"</span></span>,
+  "<span class="hljs-attribute">path</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/pets"</span></span>,
   "<span class="hljs-attribute">per_page</span>": <span class="hljs-value"><span class="hljs-number">20</span></span>,
   "<span class="hljs-attribute">prev_page_url</span>": <span class="hljs-value"><span class="hljs-literal">null</span></span>,
   "<span class="hljs-attribute">to</span>": <span class="hljs-value"><span class="hljs-number">4</span></span>,
@@ -128,12 +128,12 @@
       ]
     </span>}
   ]</span>,
-  "<span class="hljs-attribute">first_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/pets?page=1"</span></span>,
+  "<span class="hljs-attribute">first_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/pets?page=1"</span></span>,
   "<span class="hljs-attribute">from</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
   "<span class="hljs-attribute">last_page</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
-  "<span class="hljs-attribute">last_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/pets?page=1"</span></span>,
+  "<span class="hljs-attribute">last_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/pets?page=1"</span></span>,
   "<span class="hljs-attribute">next_page_url</span>": <span class="hljs-value"><span class="hljs-literal">null</span></span>,
-  "<span class="hljs-attribute">path</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/pets"</span></span>,
+  "<span class="hljs-attribute">path</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/pets"</span></span>,
   "<span class="hljs-attribute">per_page</span>": <span class="hljs-value"><span class="hljs-number">20</span></span>,
   "<span class="hljs-attribute">prev_page_url</span>": <span class="hljs-value"><span class="hljs-literal">null</span></span>,
   "<span class="hljs-attribute">to</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
@@ -168,7 +168,7 @@
   </span>}
 </span>}</code></pre><div style="height: 1px;"></div></div></div></div></div><div id="pets-remover" class="resource"><h3 class="resource-heading">Remover <a href="#pets-remover" class="permalink">&nbsp;&para;</a></h3><div id="pets-remover-delete" class="action delete"><h4 class="action-heading"><div class="name">Remover</div><a href="#pets-remover-delete" class="method delete">DELETE</a><code class="uri">/pets/{id}</code></h4><h4>Example URI</h4><div class="definition"><span class="method delete">DELETE</span>&nbsp;<span class="uri"><span class="hostname">http://pets.dariojunior.me/api</span>/pets/<span class="hljs-attribute" title="id">3</span></span></div><div class="title"><strong>URI Parameters</strong><div class="collapse-button show"><span class="close">Hide</span><span class="open">Show</span></div></div><div class="collapse-content"><dl class="inner"><dt>id</dt><dd><code>number</code>&nbsp;<span class="required">(required)</span>&nbsp;<span class="text-muted example"><strong>Example:&nbsp;</strong><span>3</span></span></dd></dl></div><div class="title"><strong>Response&nbsp;&nbsp;<code>200</code></strong><div class="collapse-button"><span class="close">Hide</span><span class="open">Show</span></div></div><div class="collapse-content"><div class="inner"><h5>Body</h5><pre><code>{
   "<span class="hljs-attribute">status</span>": <span class="hljs-value"><span class="hljs-literal">true</span></span>,
-  "<span class="hljs-attribute">url</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/pets/3"</span></span>,
+  "<span class="hljs-attribute">url</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/pets/3"</span></span>,
   "<span class="hljs-attribute">mensagem</span>": <span class="hljs-value"><span class="hljs-string">"Pet excluido com sucesso."</span></span>,
   "<span class="hljs-attribute">pet</span>": <span class="hljs-value">{
     "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">3</span></span>,
@@ -260,12 +260,12 @@
       </span>}
     </span>}
   ]</span>,
-  "<span class="hljs-attribute">first_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/atendimentos?page=1"</span></span>,
+  "<span class="hljs-attribute">first_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/atendimentos?page=1"</span></span>,
   "<span class="hljs-attribute">from</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
   "<span class="hljs-attribute">last_page</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
-  "<span class="hljs-attribute">last_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/atendimentos?page=1"</span></span>,
+  "<span class="hljs-attribute">last_page_url</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/atendimentos?page=1"</span></span>,
   "<span class="hljs-attribute">next_page_url</span>": <span class="hljs-value"><span class="hljs-literal">null</span></span>,
-  "<span class="hljs-attribute">path</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/atendimentos"</span></span>,
+  "<span class="hljs-attribute">path</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/atendimentos"</span></span>,
   "<span class="hljs-attribute">per_page</span>": <span class="hljs-value"><span class="hljs-number">20</span></span>,
   "<span class="hljs-attribute">prev_page_url</span>": <span class="hljs-value"><span class="hljs-literal">null</span></span>,
   "<span class="hljs-attribute">to</span>": <span class="hljs-value"><span class="hljs-number">5</span></span>,
@@ -297,7 +297,7 @@
   "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">7</span>
 </span>}</code></pre><div style="height: 1px;"></div></div></div></div></div><div id="atedimentos-excluir-atendimento" class="resource"><h3 class="resource-heading">Excluir Atendimento <a href="#atedimentos-excluir-atendimento" class="permalink">&nbsp;&para;</a></h3><div id="atedimentos-excluir-atendimento-delete" class="action delete"><h4 class="action-heading"><div class="name">Excluir</div><a href="#atedimentos-excluir-atendimento-delete" class="method delete">DELETE</a><code class="uri">/atendimentos/{id}</code></h4><h4>Example URI</h4><div class="definition"><span class="method delete">DELETE</span>&nbsp;<span class="uri"><span class="hostname">http://pets.dariojunior.me/api</span>/atendimentos/<span class="hljs-attribute" title="id">2</span></span></div><div class="title"><strong>URI Parameters</strong><div class="collapse-button show"><span class="close">Hide</span><span class="open">Show</span></div></div><div class="collapse-content"><dl class="inner"><dt>id</dt><dd><code>number</code>&nbsp;<span class="required">(required)</span>&nbsp;<span class="text-muted example"><strong>Example:&nbsp;</strong><span>2</span></span></dd></dl></div><div class="title"><strong>Response&nbsp;&nbsp;<code>200</code></strong><div class="collapse-button"><span class="close">Hide</span><span class="open">Show</span></div></div><div class="collapse-content"><div class="inner"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span></code></pre><div style="height: 1px;"></div><h5>Body</h5><pre><code>{
   "<span class="hljs-attribute">status</span>": <span class="hljs-value"><span class="hljs-literal">true</span></span>,
-  "<span class="hljs-attribute">url</span>": <span class="hljs-value"><span class="hljs-string">"http://localhost:8000/api/atendimentos/2"</span></span>,
+  "<span class="hljs-attribute">url</span>": <span class="hljs-value"><span class="hljs-string">"http://pets.dariojunior.me/api/atendimentos/2"</span></span>,
   "<span class="hljs-attribute">mensagem</span>": <span class="hljs-value"><span class="hljs-string">"Atendimento excluido com sucesso."</span></span>,
   "<span class="hljs-attribute">atendimento</span>": <span class="hljs-value">{
     "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">2</span></span>,
