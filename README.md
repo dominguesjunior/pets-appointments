@@ -40,6 +40,8 @@ Após isso criar as tabelas no banco de dados
 
     php artisan migrate
     
+As tabelas principais são duas:<br>
+![base-pets](https://user-images.githubusercontent.com/53835682/108649711-a365a580-749c-11eb-9b7e-04d0ea75a2e9.png)
 
 ### Pronto!!!
 Execute o comando `php artisan serve` e você já tem o projeto rodando em `http://localhost:8000`
