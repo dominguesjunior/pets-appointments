@@ -11,8 +11,7 @@ use Illuminate\Http\Request;
 class PetController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
+     * @param Request $request
      * @return JsonResponse
      */
     public function index(Request $request): JsonResponse
@@ -21,11 +20,12 @@ class PetController extends Controller
         if ($request->has('pesquisa')) {
             $query->where('nome', 'like', "%{$request->get('pesquisa')}%");
         }
-        return response()->json($query->paginate(20));
+        $query->with('atendimentos');
+        $data = $query->paginate(20);
+        return response()->json($data);
     }
 
     /**
-     * Cadastra um novo Pet.
      * @param StorePet $request
      * @return Pet
      */
@@ -47,8 +47,6 @@ class PetController extends Controller
     }
 
     /**
-     * Exclui todos os registros de um Pet
-     *
      * @param Pet $pet
      * @return JsonResponse
      * @throws Exception

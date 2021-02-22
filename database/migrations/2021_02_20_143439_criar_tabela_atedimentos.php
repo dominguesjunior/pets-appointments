@@ -16,7 +16,7 @@ class CriarTabelaAtedimentos extends Migration
         Schema::create('atendimentos', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('pet_id');
-            $table->foreign('pet_id')->references('id')->on('pets');
+            $table->foreign('pet_id')->references('id')->on('pets')->onDelete('cascade');
             $table->date('data_atendimento')->nullable(false);
             $table->text('descricao')->nullable(true);
             $table->timestamps();
