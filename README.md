@@ -45,5 +45,5 @@ Após isso criar as tabelas no banco de dados
 Execute o comando `php artisan serve` e você já tem o projeto rodando em `http://localhost:8000`
 
 ## Documentação
-[Clique aqui para acessar a documentação online.](https://pets.dariojunior.me) <br>
+[Clique aqui para acessar a documentação online.](http://pets.dariojunior.me) <br>
 Ou acessando a página `http://localhost:8000/documentation` no browser com o projeto rodando.
